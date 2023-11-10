@@ -1,0 +1,142 @@
+< html >
+< lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" /> <!-- Link to your main stylesheet -->
+  <link rel="htmlstylesheet" href="mediaqueries.css" /> <!-- Link to your media queries stylesheet -->
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">MY PORTFOLIO</div><!-- Edit your name here -->
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Shinde Tejaswini</div> <!-- Edit your name here -->
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experiences</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="C:\Users\Dell\Desktop\GATE\profile.jpg" alt="Space profile picture" /> <!-- Replace with your profile picture -->
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Shinde Tejaswini</h1> <!-- Edit your name here -->
+      <p class="section__text__p2">Begineer</p> <!-- Edit your profession/title here -->
+      <div class="btn-container">
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/tejaswini-shinde-b18033295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app /> <!-- Edit your LinkedIn URL -->
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/tejaswini264'" /> <!-- Edit your GitHub URL -->
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Exploring Some More Details</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="C:\Users\Dell\Desktop\GATE\about.jpg" alt="Profile picture" class="about-pic" /> <!-- Replace with your about picture -->
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experiences</h3>
+            <p><br />Begineer</p> <!-- Edit your experience details -->
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.E Engineer<br /></p> <!-- Edit your education details -->
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Myself SHINDE TEJASWINI , currently pursing my B.E degree and looking forward to develope and achieve excellence in all its aspects... <!-- Edit your about me text -->
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class "experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+          </div>
+          <h2 class="impending....."></h2> <!-- Edit your project title -->
+        </div>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onClick="location.href='https://github.com/tejaswini264'"> <!-- Edit your project's GitHub
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <p class="section__text__p1"></p>"Make contact with"</p>
+    <h1 class="title">"reach out"</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:tejaswinishinde766@gmail.com">Shinde Tejaswini</a></p> <!-- Edit your email address -->
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon" />
+        <p><a href=https://www.linkedin.com/in/tejaswini-shinde-b18033295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app>Shinde Tejaswini</a></p> <!-- Edit your LinkedIn URL -->
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/github.png" alt="Github Icon" class="icon contact-icon" />
+        <p><a href="https://github.com/tejaswini264">Shinde Tejaswini</a></p> <!-- Edit your GitHub URL -->
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experiences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Shinde Tejaswini. All Rights Reserved.</p> <!-- Edit your name and copyright year -->
+  </footer>
+  <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+
+</html>
